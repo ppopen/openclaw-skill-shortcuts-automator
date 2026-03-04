@@ -130,7 +130,7 @@ Or enable in Shortcuts app: Right-click shortcut > Toggle "Allow Running from Co
 
 **User says:** "Run my morning routine shortcut"
 ```bash
-shortcuts run "Morning Routine says:** "What"
+shortcuts run "Morning Routine"
 ```
 
 **User shortcuts do I have?"
@@ -147,3 +147,13 @@ shortcuts view "Send Daily Email"
 ```bash
 shortcuts sign "My Automation Shortcut"
 ```
+
+## Security Considerations
+
+⚠️ **Important:** Shortcuts can execute shell commands, access files, and control other apps.
+
+- **Only run trusted shortcuts** — Review your shortcuts before running them
+- Shortcuts have access to your files, emails, calendar, and other data depending on their actions
+- Be cautious with shortcuts from unknown sources or those that include shell commands
+- Regularly review your shortcuts in the Shortcuts app
+- Shortcuts run with your user permissions, so they can access anything you can
