@@ -99,7 +99,7 @@ shortcuts sign "My Automation Shortcut"
 
 ## Security Considerations
 
-⚠️ **Important:** Shortcuts can commands, access execute shell files, and control other apps.
+⚠️ **Important:** Shortcuts can execute shell commands, access files, and control other apps.
 
 - **Only run trusted shortcuts** — Review your shortcuts before running them
 - Shortcuts have access to your files, emails, and other data depending on their actions
